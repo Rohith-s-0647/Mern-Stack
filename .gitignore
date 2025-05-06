@@ -1,0 +1,8 @@
+# dependencies
+node_modules
+# dotenv environment variables
+.env
+# build files
+frontend/build
+# logs
+*.log

@@ -1,8 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 import {BrowserRouter,Routes,Route} from 'react-router-dom'
-import Home from './Home/Home';
-import Login from './Login/Login';
+import Home from './Home/Home.js'
+import Login from './Login/Login'
 
 function App() {
   return (
@@ -13,7 +13,6 @@ function App() {
         <Route path='/home' element={<Home/>}></Route>
       </Routes>
       </BrowserRouter>
-
     </div>
   );
 }
